@@ -1,0 +1,56 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore build directories
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+
+# Ignore compiled object files and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.class
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+
+# Ignore Makefile artifacts
+Makefile
+makefile
+GNUMakefile
+
+# Ignore coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore IDE files
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated files
+*.generated.*
